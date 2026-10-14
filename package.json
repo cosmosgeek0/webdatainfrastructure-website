@@ -1,0 +1,27 @@
+{
+  "name": "webdatainfrastructure-website",
+  "version": "1.0.0",
+  "description": "Portable public Web Data Infrastructure website",
+  "scripts": {
+    "build": "node build.mjs",
+    "test": "node --test src/data.test.js",
+    "start": "node serve.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "UNLICENSED",
+  "dependencies": {
+    "@fontsource-variable/manrope": "5.2.8",
+    "@fontsource-variable/roboto-condensed": "5.2.8",
+    "esbuild": "0.25.10",
+    "three": "0.180.0"
+  },
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "axe-core": "4.10.3"
+  },
+  "engines": {
+    "node": ">=22.13.0"
+  }
+}
